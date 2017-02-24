@@ -38,6 +38,7 @@
     //配置tableView
     [self setUpTableView];
     
+    
 }
 //配置tableView
 -(void)setUpTableView{
