@@ -11,6 +11,7 @@
 #import "UIView+border.h"
 #import "UIView+flag.h"
 #import "UIControl+recurClick.h"//解决重复点击问题
+#import "UIView+motionEffect.h"
 
 @interface CategoryOfUIViewVC ()
 @property (weak, nonatomic) IBOutlet UIView *testView;
@@ -41,6 +42,7 @@
     //解决重复点击问题
     self.testBtn.uxy_acceptEventInterval = 3.0;
     [self.testBtn addTarget:self action:@selector(testBtnACTION:) forControlEvents:UIControlEventTouchUpInside];
+
 }
 -(void)testBtnACTION:(UIButton *)sender{
     NSLog(@"点击了testBtn");

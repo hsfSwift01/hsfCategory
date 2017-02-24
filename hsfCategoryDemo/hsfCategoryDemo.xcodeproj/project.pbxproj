@@ -29,6 +29,29 @@
 		235727991E5FC49200529014 /* CategoryOfUIViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727971E5FC49200529014 /* CategoryOfUIViewVC.m */; };
 		2357279A1E5FC49200529014 /* CategoryOfUIViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235727981E5FC49200529014 /* CategoryOfUIViewVC.xib */; };
 		2357279E1E5FCA2A00529014 /* UIControl+recurClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 2357279D1E5FCA2A00529014 /* UIControl+recurClick.m */; };
+		235727A11E5FD17600529014 /* UIView+addToWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727A01E5FD17600529014 /* UIView+addToWindow.m */; };
+		235727A41E5FD21800529014 /* UIView+motionEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727A31E5FD21800529014 /* UIView+motionEffect.m */; };
+		235727A71E5FD55900529014 /* UIView+screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727A61E5FD55900529014 /* UIView+screenshot.m */; };
+		235727AB1E5FD61F00529014 /* ScreenShotVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727A91E5FD61F00529014 /* ScreenShotVC.m */; };
+		235727AC1E5FD61F00529014 /* ScreenShotVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235727AA1E5FD61F00529014 /* ScreenShotVC.xib */; };
+		235727B11E5FD76000529014 /* ImgResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727AF1E5FD76000529014 /* ImgResultVC.m */; };
+		235727B21E5FD76000529014 /* ImgResultVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235727B01E5FD76000529014 /* ImgResultVC.xib */; };
+		235727B51E5FE03D00529014 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727B41E5FE03D00529014 /* UIView+Extension.m */; };
+		235727B81E5FE09E00529014 /* UIView+superVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727B71E5FE09E00529014 /* UIView+superVC.m */; };
+		235727BB1E5FE72200529014 /* UIView+Shaking.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727BA1E5FE72200529014 /* UIView+Shaking.m */; };
+		235727C01E5FE86300529014 /* ShakeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727BE1E5FE86300529014 /* ShakeVC.m */; };
+		235727C11E5FE86300529014 /* ShakeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235727BF1E5FE86300529014 /* ShakeVC.xib */; };
+		235727C41E5FFB4800529014 /* UIView+DCAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727C31E5FFB4800529014 /* UIView+DCAnimationKit.m */; };
+		235727C91E60009200529014 /* DCAnimationKitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727C71E60009200529014 /* DCAnimationKitVC.m */; };
+		235727CA1E60009200529014 /* DCAnimationKitVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235727C81E60009200529014 /* DCAnimationKitVC.xib */; };
+		235727CE1E6003D100529014 /* DCAnimationKitShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727CC1E6003D100529014 /* DCAnimationKitShowVC.m */; };
+		235727CF1E6003D100529014 /* DCAnimationKitShowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235727CD1E6003D100529014 /* DCAnimationKitShowVC.xib */; };
+		235727D31E60092400529014 /* DCAnimationKitIntoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727D11E60092400529014 /* DCAnimationKitIntoVC.m */; };
+		235727D41E60092400529014 /* DCAnimationKitIntoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235727D21E60092400529014 /* DCAnimationKitIntoVC.xib */; };
+		235727DD1E600A3A00529014 /* AttentionGrabbersVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727DB1E600A3A00529014 /* AttentionGrabbersVC.m */; };
+		235727DE1E600A3A00529014 /* AttentionGrabbersVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235727DC1E600A3A00529014 /* AttentionGrabbersVC.xib */; };
+		235727E21E600B8200529014 /* CoordinateManipulationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727E01E600B8200529014 /* CoordinateManipulationVC.m */; };
+		235727E31E600B8200529014 /* CoordinateManipulationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235727E11E600B8200529014 /* CoordinateManipulationVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +93,44 @@
 		235727981E5FC49200529014 /* CategoryOfUIViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryOfUIViewVC.xib; sourceTree = "<group>"; };
 		2357279C1E5FCA2A00529014 /* UIControl+recurClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+recurClick.h"; sourceTree = "<group>"; };
 		2357279D1E5FCA2A00529014 /* UIControl+recurClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+recurClick.m"; sourceTree = "<group>"; };
+		2357279F1E5FD17600529014 /* UIView+addToWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+addToWindow.h"; sourceTree = "<group>"; };
+		235727A01E5FD17600529014 /* UIView+addToWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+addToWindow.m"; sourceTree = "<group>"; };
+		235727A21E5FD21800529014 /* UIView+motionEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+motionEffect.h"; sourceTree = "<group>"; };
+		235727A31E5FD21800529014 /* UIView+motionEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+motionEffect.m"; sourceTree = "<group>"; };
+		235727A51E5FD55900529014 /* UIView+screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+screenshot.h"; sourceTree = "<group>"; };
+		235727A61E5FD55900529014 /* UIView+screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+screenshot.m"; sourceTree = "<group>"; };
+		235727A81E5FD61F00529014 /* ScreenShotVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenShotVC.h; sourceTree = "<group>"; };
+		235727A91E5FD61F00529014 /* ScreenShotVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenShotVC.m; sourceTree = "<group>"; };
+		235727AA1E5FD61F00529014 /* ScreenShotVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScreenShotVC.xib; sourceTree = "<group>"; };
+		235727AE1E5FD76000529014 /* ImgResultVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgResultVC.h; sourceTree = "<group>"; };
+		235727AF1E5FD76000529014 /* ImgResultVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgResultVC.m; sourceTree = "<group>"; };
+		235727B01E5FD76000529014 /* ImgResultVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImgResultVC.xib; sourceTree = "<group>"; };
+		235727B31E5FE03D00529014 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		235727B41E5FE03D00529014 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		235727B61E5FE09E00529014 /* UIView+superVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+superVC.h"; sourceTree = "<group>"; };
+		235727B71E5FE09E00529014 /* UIView+superVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+superVC.m"; sourceTree = "<group>"; };
+		235727B91E5FE72200529014 /* UIView+Shaking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shaking.h"; sourceTree = "<group>"; };
+		235727BA1E5FE72200529014 /* UIView+Shaking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shaking.m"; sourceTree = "<group>"; };
+		235727BD1E5FE86300529014 /* ShakeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeVC.h; sourceTree = "<group>"; };
+		235727BE1E5FE86300529014 /* ShakeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeVC.m; sourceTree = "<group>"; };
+		235727BF1E5FE86300529014 /* ShakeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShakeVC.xib; sourceTree = "<group>"; };
+		235727C21E5FFB4800529014 /* UIView+DCAnimationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DCAnimationKit.h"; sourceTree = "<group>"; };
+		235727C31E5FFB4800529014 /* UIView+DCAnimationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DCAnimationKit.m"; sourceTree = "<group>"; };
+		235727C61E60009200529014 /* DCAnimationKitVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCAnimationKitVC.h; sourceTree = "<group>"; };
+		235727C71E60009200529014 /* DCAnimationKitVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCAnimationKitVC.m; sourceTree = "<group>"; };
+		235727C81E60009200529014 /* DCAnimationKitVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCAnimationKitVC.xib; sourceTree = "<group>"; };
+		235727CB1E6003D100529014 /* DCAnimationKitShowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCAnimationKitShowVC.h; sourceTree = "<group>"; };
+		235727CC1E6003D100529014 /* DCAnimationKitShowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCAnimationKitShowVC.m; sourceTree = "<group>"; };
+		235727CD1E6003D100529014 /* DCAnimationKitShowVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCAnimationKitShowVC.xib; sourceTree = "<group>"; };
+		235727D01E60092400529014 /* DCAnimationKitIntoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCAnimationKitIntoVC.h; sourceTree = "<group>"; };
+		235727D11E60092400529014 /* DCAnimationKitIntoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCAnimationKitIntoVC.m; sourceTree = "<group>"; };
+		235727D21E60092400529014 /* DCAnimationKitIntoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCAnimationKitIntoVC.xib; sourceTree = "<group>"; };
+		235727DA1E600A3A00529014 /* AttentionGrabbersVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttentionGrabbersVC.h; sourceTree = "<group>"; };
+		235727DB1E600A3A00529014 /* AttentionGrabbersVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttentionGrabbersVC.m; sourceTree = "<group>"; };
+		235727DC1E600A3A00529014 /* AttentionGrabbersVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttentionGrabbersVC.xib; sourceTree = "<group>"; };
+		235727DF1E600B8200529014 /* CoordinateManipulationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateManipulationVC.h; sourceTree = "<group>"; };
+		235727E01E600B8200529014 /* CoordinateManipulationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinateManipulationVC.m; sourceTree = "<group>"; };
+		235727E11E600B8200529014 /* CoordinateManipulationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoordinateManipulationVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +210,9 @@
 		23148EF41E5EDC3200BF033E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				235727C51E60006500529014 /* DCAnimationKit */,
+				235727BC1E5FE83800529014 /* 抖动效果 */,
+				235727AD1E5FD62A00529014 /* 截屏 */,
 				235727951E5FC46A00529014 /* UIView */,
 				2357278C1E5FBDB300529014 /* 扩大UIButton的点击范围 */,
 				23148F041E5EE53000BF033E /* UIButton的图片于文字的布局 */,
@@ -198,6 +262,20 @@
 				23148F071E5EE5E000BF033E /* UIView+border.m */,
 				235727921E5FC3A000529014 /* UIView+flag.h */,
 				235727931E5FC3A000529014 /* UIView+flag.m */,
+				2357279F1E5FD17600529014 /* UIView+addToWindow.h */,
+				235727A01E5FD17600529014 /* UIView+addToWindow.m */,
+				235727A21E5FD21800529014 /* UIView+motionEffect.h */,
+				235727A31E5FD21800529014 /* UIView+motionEffect.m */,
+				235727A51E5FD55900529014 /* UIView+screenshot.h */,
+				235727A61E5FD55900529014 /* UIView+screenshot.m */,
+				235727B31E5FE03D00529014 /* UIView+Extension.h */,
+				235727B41E5FE03D00529014 /* UIView+Extension.m */,
+				235727B61E5FE09E00529014 /* UIView+superVC.h */,
+				235727B71E5FE09E00529014 /* UIView+superVC.m */,
+				235727B91E5FE72200529014 /* UIView+Shaking.h */,
+				235727BA1E5FE72200529014 /* UIView+Shaking.m */,
+				235727C21E5FFB4800529014 /* UIView+DCAnimationKit.h */,
+				235727C31E5FFB4800529014 /* UIView+DCAnimationKit.m */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -229,6 +307,51 @@
 				2357279D1E5FCA2A00529014 /* UIControl+recurClick.m */,
 			);
 			name = UIControl;
+			sourceTree = "<group>";
+		};
+		235727AD1E5FD62A00529014 /* 截屏 */ = {
+			isa = PBXGroup;
+			children = (
+				235727A81E5FD61F00529014 /* ScreenShotVC.h */,
+				235727A91E5FD61F00529014 /* ScreenShotVC.m */,
+				235727AA1E5FD61F00529014 /* ScreenShotVC.xib */,
+				235727AE1E5FD76000529014 /* ImgResultVC.h */,
+				235727AF1E5FD76000529014 /* ImgResultVC.m */,
+				235727B01E5FD76000529014 /* ImgResultVC.xib */,
+			);
+			name = "截屏";
+			sourceTree = "<group>";
+		};
+		235727BC1E5FE83800529014 /* 抖动效果 */ = {
+			isa = PBXGroup;
+			children = (
+				235727BD1E5FE86300529014 /* ShakeVC.h */,
+				235727BE1E5FE86300529014 /* ShakeVC.m */,
+				235727BF1E5FE86300529014 /* ShakeVC.xib */,
+			);
+			name = "抖动效果";
+			sourceTree = "<group>";
+		};
+		235727C51E60006500529014 /* DCAnimationKit */ = {
+			isa = PBXGroup;
+			children = (
+				235727C61E60009200529014 /* DCAnimationKitVC.h */,
+				235727C71E60009200529014 /* DCAnimationKitVC.m */,
+				235727C81E60009200529014 /* DCAnimationKitVC.xib */,
+				235727CB1E6003D100529014 /* DCAnimationKitShowVC.h */,
+				235727CC1E6003D100529014 /* DCAnimationKitShowVC.m */,
+				235727CD1E6003D100529014 /* DCAnimationKitShowVC.xib */,
+				235727D01E60092400529014 /* DCAnimationKitIntoVC.h */,
+				235727D11E60092400529014 /* DCAnimationKitIntoVC.m */,
+				235727D21E60092400529014 /* DCAnimationKitIntoVC.xib */,
+				235727DA1E600A3A00529014 /* AttentionGrabbersVC.h */,
+				235727DB1E600A3A00529014 /* AttentionGrabbersVC.m */,
+				235727DC1E600A3A00529014 /* AttentionGrabbersVC.xib */,
+				235727DF1E600B8200529014 /* CoordinateManipulationVC.h */,
+				235727E01E600B8200529014 /* CoordinateManipulationVC.m */,
+				235727E11E600B8200529014 /* CoordinateManipulationVC.xib */,
+			);
+			name = DCAnimationKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,9 +417,17 @@
 				23148EE71E5EDB6A00BF033E /* LaunchScreen.storyboard in Resources */,
 				23148EF91E5EDC7A00BF033E /* AnimationCellVC.xib in Resources */,
 				2357279A1E5FC49200529014 /* CategoryOfUIViewVC.xib in Resources */,
+				235727CA1E60009200529014 /* DCAnimationKitVC.xib in Resources */,
+				235727B21E5FD76000529014 /* ImgResultVC.xib in Resources */,
+				235727CF1E6003D100529014 /* DCAnimationKitShowVC.xib in Resources */,
+				235727C11E5FE86300529014 /* ShakeVC.xib in Resources */,
 				23148EE41E5EDB6A00BF033E /* Assets.xcassets in Resources */,
+				235727AC1E5FD61F00529014 /* ScreenShotVC.xib in Resources */,
+				235727D41E60092400529014 /* DCAnimationKitIntoVC.xib in Resources */,
 				23148EE21E5EDB6A00BF033E /* Main.storyboard in Resources */,
+				235727DE1E600A3A00529014 /* AttentionGrabbersVC.xib in Resources */,
 				23148F101E5EE7A200BF033E /* BtnLayoutVC.xib in Resources */,
+				235727E31E600B8200529014 /* CoordinateManipulationVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,18 +438,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				235727A11E5FD17600529014 /* UIView+addToWindow.m in Sources */,
 				23148EFE1E5EDE5800BF033E /* AnimationCell.m in Sources */,
+				235727D31E60092400529014 /* DCAnimationKitIntoVC.m in Sources */,
+				235727DD1E600A3A00529014 /* AttentionGrabbersVC.m in Sources */,
+				235727E21E600B8200529014 /* CoordinateManipulationVC.m in Sources */,
 				235727901E5FBDED00529014 /* EnlargeClickRectVC.m in Sources */,
 				23148EDF1E5EDB6A00BF033E /* ViewController.m in Sources */,
 				23148EDC1E5EDB6A00BF033E /* AppDelegate.m in Sources */,
 				23148EF31E5EDC0200BF033E /* UITableViewCell+CellAnimation.m in Sources */,
+				235727CE1E6003D100529014 /* DCAnimationKitShowVC.m in Sources */,
+				235727C91E60009200529014 /* DCAnimationKitVC.m in Sources */,
+				235727B11E5FD76000529014 /* ImgResultVC.m in Sources */,
 				23148F081E5EE5E000BF033E /* UIView+border.m in Sources */,
+				235727A71E5FD55900529014 /* UIView+screenshot.m in Sources */,
+				235727AB1E5FD61F00529014 /* ScreenShotVC.m in Sources */,
+				235727B51E5FE03D00529014 /* UIView+Extension.m in Sources */,
+				235727C01E5FE86300529014 /* ShakeVC.m in Sources */,
+				235727A41E5FD21800529014 /* UIView+motionEffect.m in Sources */,
 				235727941E5FC3A000529014 /* UIView+flag.m in Sources */,
 				23148EF81E5EDC7A00BF033E /* AnimationCellVC.m in Sources */,
 				2357278B1E5FBCF400529014 /* UIButton+enlargeClickRect.m in Sources */,
 				23148ED91E5EDB6A00BF033E /* main.m in Sources */,
+				235727BB1E5FE72200529014 /* UIView+Shaking.m in Sources */,
 				23148F0F1E5EE7A200BF033E /* BtnLayoutVC.m in Sources */,
 				235727991E5FC49200529014 /* CategoryOfUIViewVC.m in Sources */,
+				235727B81E5FE09E00529014 /* UIView+superVC.m in Sources */,
+				235727C41E5FFB4800529014 /* UIView+DCAnimationKit.m in Sources */,
 				2357279E1E5FCA2A00529014 /* UIControl+recurClick.m in Sources */,
 				23148F0B1E5EE71D00BF033E /* UIButton+Layout.m in Sources */,
 			);

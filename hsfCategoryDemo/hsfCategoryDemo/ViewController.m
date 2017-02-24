@@ -8,10 +8,13 @@
 
 #import "ViewController.h"
 
-#import "AnimationCellVC.h"
-#import "BtnLayoutVC.h"
-#import "EnlargeClickRectVC.h"
+#import "AnimationCellVC.h"//cell的进入方式
+#import "BtnLayoutVC.h"//button的图片文字布局方式
+#import "EnlargeClickRectVC.h"//扩大点击范围
 #import "CategoryOfUIViewVC.h"
+#import "ScreenShotVC.h"//截屏
+#import "ShakeVC.h"//抖动
+#import "DCAnimationKitVC.h"//UIView 动画集合
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -22,7 +25,7 @@
 #pragma mark -懒加载
 -(NSArray *)source{
     if (!_source) {
-        _source = @[@"UITableViewCell+CellAnimation", @"UIButton+Layout", @"UIButton+enlargeClickRect", @"CategoryOfUIViewVC"];
+        _source = @[@"UITableViewCell+CellAnimation", @"UIButton+Layout", @"UIButton+enlargeClickRect", @"CategoryOfUIViewVC", @"UIView+screenshot", @"UIView+Shaking", @"UIView+DCAnimationKit"];
     }
     return _source;
 }
@@ -72,6 +75,15 @@
     }else if (indexPath.row == 3) {
         CategoryOfUIViewVC *categoryOfUIView_VC = [[CategoryOfUIViewVC alloc]init];
         [self.navigationController pushViewController:categoryOfUIView_VC animated:YES];
+    }else if (indexPath.row == 4) {
+        ScreenShotVC *screenshot_VC = [[ScreenShotVC alloc]init];
+        [self.navigationController pushViewController:screenshot_VC animated:YES];
+    }else if (indexPath.row == 5) {
+        ShakeVC *shake_VC = [[ShakeVC alloc]init];
+        [self.navigationController pushViewController:shake_VC animated:YES];
+    }else if (indexPath.row == 6) {
+        DCAnimationKitVC *animationKit_VC = [[DCAnimationKitVC alloc]init];
+        [self.navigationController pushViewController:animationKit_VC animated:YES];
     }
 }
 
