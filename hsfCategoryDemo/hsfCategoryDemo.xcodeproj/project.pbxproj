@@ -22,6 +22,13 @@
 		23148F0B1E5EE71D00BF033E /* UIButton+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 23148F0A1E5EE71D00BF033E /* UIButton+Layout.m */; };
 		23148F0F1E5EE7A200BF033E /* BtnLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23148F0D1E5EE7A200BF033E /* BtnLayoutVC.m */; };
 		23148F101E5EE7A200BF033E /* BtnLayoutVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23148F0E1E5EE7A200BF033E /* BtnLayoutVC.xib */; };
+		2357278B1E5FBCF400529014 /* UIButton+enlargeClickRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2357278A1E5FBCF400529014 /* UIButton+enlargeClickRect.m */; };
+		235727901E5FBDED00529014 /* EnlargeClickRectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2357278E1E5FBDED00529014 /* EnlargeClickRectVC.m */; };
+		235727911E5FBDED00529014 /* EnlargeClickRectVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2357278F1E5FBDED00529014 /* EnlargeClickRectVC.xib */; };
+		235727941E5FC3A000529014 /* UIView+flag.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727931E5FC3A000529014 /* UIView+flag.m */; };
+		235727991E5FC49200529014 /* CategoryOfUIViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727971E5FC49200529014 /* CategoryOfUIViewVC.m */; };
+		2357279A1E5FC49200529014 /* CategoryOfUIViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235727981E5FC49200529014 /* CategoryOfUIViewVC.xib */; };
+		2357279E1E5FCA2A00529014 /* UIControl+recurClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 2357279D1E5FCA2A00529014 /* UIControl+recurClick.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +58,18 @@
 		23148F0C1E5EE7A200BF033E /* BtnLayoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnLayoutVC.h; sourceTree = "<group>"; };
 		23148F0D1E5EE7A200BF033E /* BtnLayoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnLayoutVC.m; sourceTree = "<group>"; };
 		23148F0E1E5EE7A200BF033E /* BtnLayoutVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BtnLayoutVC.xib; sourceTree = "<group>"; };
+		235727891E5FBCF400529014 /* UIButton+enlargeClickRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+enlargeClickRect.h"; sourceTree = "<group>"; };
+		2357278A1E5FBCF400529014 /* UIButton+enlargeClickRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+enlargeClickRect.m"; sourceTree = "<group>"; };
+		2357278D1E5FBDED00529014 /* EnlargeClickRectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargeClickRectVC.h; sourceTree = "<group>"; };
+		2357278E1E5FBDED00529014 /* EnlargeClickRectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnlargeClickRectVC.m; sourceTree = "<group>"; };
+		2357278F1E5FBDED00529014 /* EnlargeClickRectVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnlargeClickRectVC.xib; sourceTree = "<group>"; };
+		235727921E5FC3A000529014 /* UIView+flag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+flag.h"; sourceTree = "<group>"; };
+		235727931E5FC3A000529014 /* UIView+flag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+flag.m"; sourceTree = "<group>"; };
+		235727961E5FC49200529014 /* CategoryOfUIViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryOfUIViewVC.h; sourceTree = "<group>"; };
+		235727971E5FC49200529014 /* CategoryOfUIViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryOfUIViewVC.m; sourceTree = "<group>"; };
+		235727981E5FC49200529014 /* CategoryOfUIViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryOfUIViewVC.xib; sourceTree = "<group>"; };
+		2357279C1E5FCA2A00529014 /* UIControl+recurClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+recurClick.h"; sourceTree = "<group>"; };
+		2357279D1E5FCA2A00529014 /* UIControl+recurClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+recurClick.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +129,7 @@
 		23148EEF1E5EDBE500BF033E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				2357279B1E5FC9D500529014 /* UIControl */,
 				23148F051E5EE5C300BF033E /* UIView */,
 				23148F001E5EE4D800BF033E /* UIButton */,
 				23148EF01E5EDBEF00BF033E /* UITableViewCell */,
@@ -129,6 +149,8 @@
 		23148EF41E5EDC3200BF033E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				235727951E5FC46A00529014 /* UIView */,
+				2357278C1E5FBDB300529014 /* 扩大UIButton的点击范围 */,
 				23148F041E5EE53000BF033E /* UIButton的图片于文字的布局 */,
 				23148EFA1E5EDE2100BF033E /* cell的进入动画 */,
 			);
@@ -153,6 +175,8 @@
 			children = (
 				23148F091E5EE71D00BF033E /* UIButton+Layout.h */,
 				23148F0A1E5EE71D00BF033E /* UIButton+Layout.m */,
+				235727891E5FBCF400529014 /* UIButton+enlargeClickRect.h */,
+				2357278A1E5FBCF400529014 /* UIButton+enlargeClickRect.m */,
 			);
 			name = UIButton;
 			sourceTree = "<group>";
@@ -172,8 +196,39 @@
 			children = (
 				23148F061E5EE5E000BF033E /* UIView+border.h */,
 				23148F071E5EE5E000BF033E /* UIView+border.m */,
+				235727921E5FC3A000529014 /* UIView+flag.h */,
+				235727931E5FC3A000529014 /* UIView+flag.m */,
 			);
 			name = UIView;
+			sourceTree = "<group>";
+		};
+		2357278C1E5FBDB300529014 /* 扩大UIButton的点击范围 */ = {
+			isa = PBXGroup;
+			children = (
+				2357278D1E5FBDED00529014 /* EnlargeClickRectVC.h */,
+				2357278E1E5FBDED00529014 /* EnlargeClickRectVC.m */,
+				2357278F1E5FBDED00529014 /* EnlargeClickRectVC.xib */,
+			);
+			name = "扩大UIButton的点击范围";
+			sourceTree = "<group>";
+		};
+		235727951E5FC46A00529014 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				235727961E5FC49200529014 /* CategoryOfUIViewVC.h */,
+				235727971E5FC49200529014 /* CategoryOfUIViewVC.m */,
+				235727981E5FC49200529014 /* CategoryOfUIViewVC.xib */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		2357279B1E5FC9D500529014 /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				2357279C1E5FCA2A00529014 /* UIControl+recurClick.h */,
+				2357279D1E5FCA2A00529014 /* UIControl+recurClick.m */,
+			);
+			name = UIControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				23148EFF1E5EDE5800BF033E /* AnimationCell.xib in Resources */,
+				235727911E5FBDED00529014 /* EnlargeClickRectVC.xib in Resources */,
 				23148EE71E5EDB6A00BF033E /* LaunchScreen.storyboard in Resources */,
 				23148EF91E5EDC7A00BF033E /* AnimationCellVC.xib in Resources */,
+				2357279A1E5FC49200529014 /* CategoryOfUIViewVC.xib in Resources */,
 				23148EE41E5EDB6A00BF033E /* Assets.xcassets in Resources */,
 				23148EE21E5EDB6A00BF033E /* Main.storyboard in Resources */,
 				23148F101E5EE7A200BF033E /* BtnLayoutVC.xib in Resources */,
@@ -251,13 +308,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				23148EFE1E5EDE5800BF033E /* AnimationCell.m in Sources */,
+				235727901E5FBDED00529014 /* EnlargeClickRectVC.m in Sources */,
 				23148EDF1E5EDB6A00BF033E /* ViewController.m in Sources */,
 				23148EDC1E5EDB6A00BF033E /* AppDelegate.m in Sources */,
 				23148EF31E5EDC0200BF033E /* UITableViewCell+CellAnimation.m in Sources */,
 				23148F081E5EE5E000BF033E /* UIView+border.m in Sources */,
+				235727941E5FC3A000529014 /* UIView+flag.m in Sources */,
 				23148EF81E5EDC7A00BF033E /* AnimationCellVC.m in Sources */,
+				2357278B1E5FBCF400529014 /* UIButton+enlargeClickRect.m in Sources */,
 				23148ED91E5EDB6A00BF033E /* main.m in Sources */,
 				23148F0F1E5EE7A200BF033E /* BtnLayoutVC.m in Sources */,
+				235727991E5FC49200529014 /* CategoryOfUIViewVC.m in Sources */,
+				2357279E1E5FCA2A00529014 /* UIControl+recurClick.m in Sources */,
 				23148F0B1E5EE71D00BF033E /* UIButton+Layout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +481,7 @@
 				23148EED1E5EDB6A00BF033E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,6 +10,8 @@
 
 #import "AnimationCellVC.h"
 #import "BtnLayoutVC.h"
+#import "EnlargeClickRectVC.h"
+#import "CategoryOfUIViewVC.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -20,7 +22,7 @@
 #pragma mark -懒加载
 -(NSArray *)source{
     if (!_source) {
-        _source = @[@"UITableViewCell+CellAnimation", @"UIButton+Layout"];
+        _source = @[@"UITableViewCell+CellAnimation", @"UIButton+Layout", @"UIButton+enlargeClickRect", @"CategoryOfUIViewVC"];
     }
     return _source;
 }
@@ -32,6 +34,7 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
     //配置tableView
     [self setUpTableView];
+    
 }
 //配置tableView
 -(void)setUpTableView{
@@ -63,6 +66,12 @@
     }else if (indexPath.row == 1) {
         BtnLayoutVC *btnLayout_VC = [[BtnLayoutVC alloc]init];
         [self.navigationController pushViewController:btnLayout_VC animated:YES];
+    }else if (indexPath.row == 2) {
+        EnlargeClickRectVC *enlargeClickRect_VC = [[EnlargeClickRectVC alloc]init];
+        [self.navigationController pushViewController:enlargeClickRect_VC animated:YES];
+    }else if (indexPath.row == 3) {
+        CategoryOfUIViewVC *categoryOfUIView_VC = [[CategoryOfUIViewVC alloc]init];
+        [self.navigationController pushViewController:categoryOfUIView_VC animated:YES];
     }
 }
 
