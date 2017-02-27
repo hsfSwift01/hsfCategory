@@ -40,6 +40,7 @@
 		233863901E63F20000AEA376 /* ThirdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2338638E1E63F20000AEA376 /* ThirdVC.xib */; };
 		233863941E63F5F700AEA376 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 233863931E63F5F700AEA376 /* NSString+MD5.m */; };
 		2338639B1E63FA3C00AEA376 /* UILabel+size.m in Sources */ = {isa = PBXBuildFile; fileRef = 2338639A1E63FA3C00AEA376 /* UILabel+size.m */; };
+		2338639E1E640C1300AEA376 /* NSString+DisplayTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 2338639D1E640C1300AEA376 /* NSString+DisplayTime.m */; };
 		2357278B1E5FBCF400529014 /* UIButton+enlargeClickRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2357278A1E5FBCF400529014 /* UIButton+enlargeClickRect.m */; };
 		235727901E5FBDED00529014 /* EnlargeClickRectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2357278E1E5FBDED00529014 /* EnlargeClickRectVC.m */; };
 		235727911E5FBDED00529014 /* EnlargeClickRectVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2357278F1E5FBDED00529014 /* EnlargeClickRectVC.xib */; };
@@ -128,6 +129,8 @@
 		233863931E63F5F700AEA376 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		233863991E63FA3C00AEA376 /* UILabel+size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+size.h"; sourceTree = "<group>"; };
 		2338639A1E63FA3C00AEA376 /* UILabel+size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+size.m"; sourceTree = "<group>"; };
+		2338639C1E640C1300AEA376 /* NSString+DisplayTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DisplayTime.h"; sourceTree = "<group>"; };
+		2338639D1E640C1300AEA376 /* NSString+DisplayTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DisplayTime.m"; sourceTree = "<group>"; };
 		235727891E5FBCF400529014 /* UIButton+enlargeClickRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+enlargeClickRect.h"; sourceTree = "<group>"; };
 		2357278A1E5FBCF400529014 /* UIButton+enlargeClickRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+enlargeClickRect.m"; sourceTree = "<group>"; };
 		2357278D1E5FBDED00529014 /* EnlargeClickRectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargeClickRectVC.h; sourceTree = "<group>"; };
@@ -391,6 +394,8 @@
 			children = (
 				233863921E63F5F700AEA376 /* NSString+MD5.h */,
 				233863931E63F5F700AEA376 /* NSString+MD5.m */,
+				2338639C1E640C1300AEA376 /* NSString+DisplayTime.h */,
+				2338639D1E640C1300AEA376 /* NSString+DisplayTime.m */,
 			);
 			name = NSString;
 			sourceTree = "<group>";
@@ -601,6 +606,7 @@
 				23148F0F1E5EE7A200BF033E /* BtnLayoutVC.m in Sources */,
 				2338638F1E63F20000AEA376 /* ThirdVC.m in Sources */,
 				235727991E5FC49200529014 /* CategoryOfUIViewVC.m in Sources */,
+				2338639E1E640C1300AEA376 /* NSString+DisplayTime.m in Sources */,
 				235727B81E5FE09E00529014 /* UIView+superVC.m in Sources */,
 				233863941E63F5F700AEA376 /* NSString+MD5.m in Sources */,
 				235727C41E5FFB4800529014 /* UIView+DCAnimationKit.m in Sources */,
