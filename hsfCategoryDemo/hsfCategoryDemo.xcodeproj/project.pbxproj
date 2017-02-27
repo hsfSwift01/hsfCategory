@@ -42,6 +42,7 @@
 		2338639B1E63FA3C00AEA376 /* UILabel+size.m in Sources */ = {isa = PBXBuildFile; fileRef = 2338639A1E63FA3C00AEA376 /* UILabel+size.m */; };
 		2338639E1E640C1300AEA376 /* NSString+DisplayTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 2338639D1E640C1300AEA376 /* NSString+DisplayTime.m */; };
 		233863A11E640C6D00AEA376 /* NSString+MusicTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 233863A01E640C6D00AEA376 /* NSString+MusicTime.m */; };
+		233863A41E640CE200AEA376 /* NSString+Predicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 233863A31E640CE200AEA376 /* NSString+Predicate.m */; };
 		2357278B1E5FBCF400529014 /* UIButton+enlargeClickRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2357278A1E5FBCF400529014 /* UIButton+enlargeClickRect.m */; };
 		235727901E5FBDED00529014 /* EnlargeClickRectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2357278E1E5FBDED00529014 /* EnlargeClickRectVC.m */; };
 		235727911E5FBDED00529014 /* EnlargeClickRectVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2357278F1E5FBDED00529014 /* EnlargeClickRectVC.xib */; };
@@ -134,6 +135,8 @@
 		2338639D1E640C1300AEA376 /* NSString+DisplayTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DisplayTime.m"; sourceTree = "<group>"; };
 		2338639F1E640C6D00AEA376 /* NSString+MusicTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MusicTime.h"; sourceTree = "<group>"; };
 		233863A01E640C6D00AEA376 /* NSString+MusicTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MusicTime.m"; sourceTree = "<group>"; };
+		233863A21E640CE200AEA376 /* NSString+Predicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Predicate.h"; sourceTree = "<group>"; };
+		233863A31E640CE200AEA376 /* NSString+Predicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Predicate.m"; sourceTree = "<group>"; };
 		235727891E5FBCF400529014 /* UIButton+enlargeClickRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+enlargeClickRect.h"; sourceTree = "<group>"; };
 		2357278A1E5FBCF400529014 /* UIButton+enlargeClickRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+enlargeClickRect.m"; sourceTree = "<group>"; };
 		2357278D1E5FBDED00529014 /* EnlargeClickRectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargeClickRectVC.h; sourceTree = "<group>"; };
@@ -401,6 +404,8 @@
 				2338639D1E640C1300AEA376 /* NSString+DisplayTime.m */,
 				2338639F1E640C6D00AEA376 /* NSString+MusicTime.h */,
 				233863A01E640C6D00AEA376 /* NSString+MusicTime.m */,
+				233863A21E640CE200AEA376 /* NSString+Predicate.h */,
+				233863A31E640CE200AEA376 /* NSString+Predicate.m */,
 			);
 			name = NSString;
 			sourceTree = "<group>";
@@ -579,6 +584,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				233863A41E640CE200AEA376 /* NSString+Predicate.m in Sources */,
 				235727A11E5FD17600529014 /* UIView+addToWindow.m in Sources */,
 				233863851E63F1D400AEA376 /* FirstVC.m in Sources */,
 				23148EFE1E5EDE5800BF033E /* AnimationCell.m in Sources */,
