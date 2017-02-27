@@ -15,6 +15,7 @@
 #import "ScreenShotVC.h"//截屏
 #import "ShakeVC.h"//抖动
 #import "DCAnimationKitVC.h"//UIView 动画集合
+#import "ImageDemoVC.h"//image类别demo
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -25,7 +26,7 @@
 #pragma mark -懒加载
 -(NSArray *)source{
     if (!_source) {
-        _source = @[@"UITableViewCell+CellAnimation", @"UIButton+Layout", @"UIButton+enlargeClickRect", @"CategoryOfUIViewVC", @"UIView+screenshot", @"UIView+Shaking", @"UIView+DCAnimationKit"];
+        _source = @[@"UITableViewCell+CellAnimation", @"UIButton+Layout", @"UIButton+enlargeClickRect", @"CategoryOfUIViewVC", @"UIView+screenshot", @"UIView+Shaking", @"UIView+DCAnimationKit", @"ImageDemo"];
     }
     return _source;
 }
@@ -85,6 +86,9 @@
     }else if (indexPath.row == 6) {
         DCAnimationKitVC *animationKit_VC = [[DCAnimationKitVC alloc]init];
         [self.navigationController pushViewController:animationKit_VC animated:YES];
+    }else if (indexPath.row == 7) {
+        ImageDemoVC *imageDemo_VC = [[ImageDemoVC alloc]init];
+        [self.navigationController pushViewController:imageDemo_VC animated:YES];
     }
 }
 

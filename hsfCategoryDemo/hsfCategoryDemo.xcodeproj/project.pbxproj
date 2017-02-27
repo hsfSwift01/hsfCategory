@@ -22,6 +22,15 @@
 		23148F0B1E5EE71D00BF033E /* UIButton+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 23148F0A1E5EE71D00BF033E /* UIButton+Layout.m */; };
 		23148F0F1E5EE7A200BF033E /* BtnLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23148F0D1E5EE7A200BF033E /* BtnLayoutVC.m */; };
 		23148F101E5EE7A200BF033E /* BtnLayoutVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23148F0E1E5EE7A200BF033E /* BtnLayoutVC.xib */; };
+		233863671E63C42800AEA376 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 233863661E63C42800AEA376 /* UIImage+Category.m */; };
+		2338636C1E63C7A400AEA376 /* ImageDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2338636A1E63C7A400AEA376 /* ImageDemoVC.m */; };
+		2338636D1E63C7A400AEA376 /* ImageDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2338636B1E63C7A400AEA376 /* ImageDemoVC.xib */; };
+		233863711E63C90600AEA376 /* ImageCategoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2338636F1E63C90600AEA376 /* ImageCategoryVC.m */; };
+		233863721E63C90600AEA376 /* ImageCategoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 233863701E63C90600AEA376 /* ImageCategoryVC.xib */; };
+		233863761E63C92E00AEA376 /* ImageBlurVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 233863741E63C92E00AEA376 /* ImageBlurVC.m */; };
+		233863771E63C92E00AEA376 /* ImageBlurVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 233863751E63C92E00AEA376 /* ImageBlurVC.xib */; };
+		2338637B1E63C94300AEA376 /* ImageImageEffectsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 233863791E63C94300AEA376 /* ImageImageEffectsVC.m */; };
+		2338637C1E63C94300AEA376 /* ImageImageEffectsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2338637A1E63C94300AEA376 /* ImageImageEffectsVC.xib */; };
 		2357278B1E5FBCF400529014 /* UIButton+enlargeClickRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2357278A1E5FBCF400529014 /* UIButton+enlargeClickRect.m */; };
 		235727901E5FBDED00529014 /* EnlargeClickRectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2357278E1E5FBDED00529014 /* EnlargeClickRectVC.m */; };
 		235727911E5FBDED00529014 /* EnlargeClickRectVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2357278F1E5FBDED00529014 /* EnlargeClickRectVC.xib */; };
@@ -81,6 +90,20 @@
 		23148F0C1E5EE7A200BF033E /* BtnLayoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnLayoutVC.h; sourceTree = "<group>"; };
 		23148F0D1E5EE7A200BF033E /* BtnLayoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnLayoutVC.m; sourceTree = "<group>"; };
 		23148F0E1E5EE7A200BF033E /* BtnLayoutVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BtnLayoutVC.xib; sourceTree = "<group>"; };
+		233863651E63C42800AEA376 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		233863661E63C42800AEA376 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		233863691E63C7A400AEA376 /* ImageDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDemoVC.h; sourceTree = "<group>"; };
+		2338636A1E63C7A400AEA376 /* ImageDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDemoVC.m; sourceTree = "<group>"; };
+		2338636B1E63C7A400AEA376 /* ImageDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageDemoVC.xib; sourceTree = "<group>"; };
+		2338636E1E63C90600AEA376 /* ImageCategoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCategoryVC.h; sourceTree = "<group>"; };
+		2338636F1E63C90600AEA376 /* ImageCategoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCategoryVC.m; sourceTree = "<group>"; };
+		233863701E63C90600AEA376 /* ImageCategoryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCategoryVC.xib; sourceTree = "<group>"; };
+		233863731E63C92E00AEA376 /* ImageBlurVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageBlurVC.h; sourceTree = "<group>"; };
+		233863741E63C92E00AEA376 /* ImageBlurVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageBlurVC.m; sourceTree = "<group>"; };
+		233863751E63C92E00AEA376 /* ImageBlurVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageBlurVC.xib; sourceTree = "<group>"; };
+		233863781E63C94300AEA376 /* ImageImageEffectsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageImageEffectsVC.h; sourceTree = "<group>"; };
+		233863791E63C94300AEA376 /* ImageImageEffectsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageImageEffectsVC.m; sourceTree = "<group>"; };
+		2338637A1E63C94300AEA376 /* ImageImageEffectsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageImageEffectsVC.xib; sourceTree = "<group>"; };
 		235727891E5FBCF400529014 /* UIButton+enlargeClickRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+enlargeClickRect.h"; sourceTree = "<group>"; };
 		2357278A1E5FBCF400529014 /* UIButton+enlargeClickRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+enlargeClickRect.m"; sourceTree = "<group>"; };
 		2357278D1E5FBDED00529014 /* EnlargeClickRectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargeClickRectVC.h; sourceTree = "<group>"; };
@@ -190,6 +213,7 @@
 		23148EEF1E5EDBE500BF033E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				233863641E63C41800AEA376 /* UIImage */,
 				2357279B1E5FC9D500529014 /* UIControl */,
 				23148F051E5EE5C300BF033E /* UIView */,
 				23148F001E5EE4D800BF033E /* UIButton */,
@@ -210,6 +234,7 @@
 		23148EF41E5EDC3200BF033E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				233863681E63C45400AEA376 /* UIImage类别demo */,
 				235727C51E60006500529014 /* DCAnimationKit */,
 				235727BC1E5FE83800529014 /* 抖动效果 */,
 				235727AD1E5FD62A00529014 /* 截屏 */,
@@ -278,6 +303,34 @@
 				235727C31E5FFB4800529014 /* UIView+DCAnimationKit.m */,
 			);
 			name = UIView;
+			sourceTree = "<group>";
+		};
+		233863641E63C41800AEA376 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				233863651E63C42800AEA376 /* UIImage+Category.h */,
+				233863661E63C42800AEA376 /* UIImage+Category.m */,
+			);
+			name = UIImage;
+			sourceTree = "<group>";
+		};
+		233863681E63C45400AEA376 /* UIImage类别demo */ = {
+			isa = PBXGroup;
+			children = (
+				233863691E63C7A400AEA376 /* ImageDemoVC.h */,
+				2338636A1E63C7A400AEA376 /* ImageDemoVC.m */,
+				2338636B1E63C7A400AEA376 /* ImageDemoVC.xib */,
+				2338636E1E63C90600AEA376 /* ImageCategoryVC.h */,
+				2338636F1E63C90600AEA376 /* ImageCategoryVC.m */,
+				233863701E63C90600AEA376 /* ImageCategoryVC.xib */,
+				233863731E63C92E00AEA376 /* ImageBlurVC.h */,
+				233863741E63C92E00AEA376 /* ImageBlurVC.m */,
+				233863751E63C92E00AEA376 /* ImageBlurVC.xib */,
+				233863781E63C94300AEA376 /* ImageImageEffectsVC.h */,
+				233863791E63C94300AEA376 /* ImageImageEffectsVC.m */,
+				2338637A1E63C94300AEA376 /* ImageImageEffectsVC.xib */,
+			);
+			name = "UIImage类别demo";
 			sourceTree = "<group>";
 		};
 		2357278C1E5FBDB300529014 /* 扩大UIButton的点击范围 */ = {
@@ -412,8 +465,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				233863721E63C90600AEA376 /* ImageCategoryVC.xib in Resources */,
 				23148EFF1E5EDE5800BF033E /* AnimationCell.xib in Resources */,
 				235727911E5FBDED00529014 /* EnlargeClickRectVC.xib in Resources */,
+				2338637C1E63C94300AEA376 /* ImageImageEffectsVC.xib in Resources */,
 				23148EE71E5EDB6A00BF033E /* LaunchScreen.storyboard in Resources */,
 				23148EF91E5EDC7A00BF033E /* AnimationCellVC.xib in Resources */,
 				2357279A1E5FC49200529014 /* CategoryOfUIViewVC.xib in Resources */,
@@ -421,7 +476,9 @@
 				235727B21E5FD76000529014 /* ImgResultVC.xib in Resources */,
 				235727CF1E6003D100529014 /* DCAnimationKitShowVC.xib in Resources */,
 				235727C11E5FE86300529014 /* ShakeVC.xib in Resources */,
+				233863771E63C92E00AEA376 /* ImageBlurVC.xib in Resources */,
 				23148EE41E5EDB6A00BF033E /* Assets.xcassets in Resources */,
+				2338636D1E63C7A400AEA376 /* ImageDemoVC.xib in Resources */,
 				235727AC1E5FD61F00529014 /* ScreenShotVC.xib in Resources */,
 				235727D41E60092400529014 /* DCAnimationKitIntoVC.xib in Resources */,
 				23148EE21E5EDB6A00BF033E /* Main.storyboard in Resources */,
@@ -444,10 +501,12 @@
 				235727DD1E600A3A00529014 /* AttentionGrabbersVC.m in Sources */,
 				235727E21E600B8200529014 /* CoordinateManipulationVC.m in Sources */,
 				235727901E5FBDED00529014 /* EnlargeClickRectVC.m in Sources */,
+				233863711E63C90600AEA376 /* ImageCategoryVC.m in Sources */,
 				23148EDF1E5EDB6A00BF033E /* ViewController.m in Sources */,
 				23148EDC1E5EDB6A00BF033E /* AppDelegate.m in Sources */,
 				23148EF31E5EDC0200BF033E /* UITableViewCell+CellAnimation.m in Sources */,
 				235727CE1E6003D100529014 /* DCAnimationKitShowVC.m in Sources */,
+				2338636C1E63C7A400AEA376 /* ImageDemoVC.m in Sources */,
 				235727C91E60009200529014 /* DCAnimationKitVC.m in Sources */,
 				235727B11E5FD76000529014 /* ImgResultVC.m in Sources */,
 				23148F081E5EE5E000BF033E /* UIView+border.m in Sources */,
@@ -459,7 +518,9 @@
 				235727941E5FC3A000529014 /* UIView+flag.m in Sources */,
 				23148EF81E5EDC7A00BF033E /* AnimationCellVC.m in Sources */,
 				2357278B1E5FBCF400529014 /* UIButton+enlargeClickRect.m in Sources */,
+				2338637B1E63C94300AEA376 /* ImageImageEffectsVC.m in Sources */,
 				23148ED91E5EDB6A00BF033E /* main.m in Sources */,
+				233863761E63C92E00AEA376 /* ImageBlurVC.m in Sources */,
 				235727BB1E5FE72200529014 /* UIView+Shaking.m in Sources */,
 				23148F0F1E5EE7A200BF033E /* BtnLayoutVC.m in Sources */,
 				235727991E5FC49200529014 /* CategoryOfUIViewVC.m in Sources */,
@@ -467,6 +528,7 @@
 				235727C41E5FFB4800529014 /* UIView+DCAnimationKit.m in Sources */,
 				2357279E1E5FCA2A00529014 /* UIControl+recurClick.m in Sources */,
 				23148F0B1E5EE71D00BF033E /* UIButton+Layout.m in Sources */,
+				233863671E63C42800AEA376 /* UIImage+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
