@@ -16,6 +16,7 @@
 #import "ShakeVC.h"//抖动
 #import "DCAnimationKitVC.h"//UIView 动画集合
 #import "ImageDemoVC.h"//image类别demo
+#import "FirstVC.h"//添加返回手势的导航栏demo
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -26,7 +27,7 @@
 #pragma mark -懒加载
 -(NSArray *)source{
     if (!_source) {
-        _source = @[@"UITableViewCell+CellAnimation", @"UIButton+Layout", @"UIButton+enlargeClickRect", @"CategoryOfUIViewVC", @"UIView+screenshot", @"UIView+Shaking", @"UIView+DCAnimationKit", @"ImageDemo"];
+        _source = @[@"UITableViewCell+CellAnimation", @"UIButton+Layout", @"UIButton+enlargeClickRect", @"CategoryOfUIViewVC", @"UIView+screenshot", @"UIView+Shaking", @"UIView+DCAnimationKit", @"ImageDemo", @"一个添加返回手势的demo"];
     }
     return _source;
 }
@@ -36,6 +37,8 @@
     self.navigationItem.title = @"主页";
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.edgesForExtendedLayout = UIRectEdgeNone;
+//    self.navigationController.fd_fullscreenPopGestureRecognizer.enabled = NO;//取消一个UINavigationContrller的返回手势
+//    self.fd_interactivePopDisabled = YES;//取消一个控制器的返回手势
     //配置tableView
     [self setUpTableView];
     
@@ -89,6 +92,10 @@
     }else if (indexPath.row == 7) {
         ImageDemoVC *imageDemo_VC = [[ImageDemoVC alloc]init];
         [self.navigationController pushViewController:imageDemo_VC animated:YES];
+    }else if (indexPath.row == 8) {
+        FirstVC *vc = [[FirstVC alloc]init];
+        
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 

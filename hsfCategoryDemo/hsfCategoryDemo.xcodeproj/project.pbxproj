@@ -31,6 +31,13 @@
 		233863771E63C92E00AEA376 /* ImageBlurVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 233863751E63C92E00AEA376 /* ImageBlurVC.xib */; };
 		2338637B1E63C94300AEA376 /* ImageImageEffectsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 233863791E63C94300AEA376 /* ImageImageEffectsVC.m */; };
 		2338637C1E63C94300AEA376 /* ImageImageEffectsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2338637A1E63C94300AEA376 /* ImageImageEffectsVC.xib */; };
+		233863801E63F18200AEA376 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2338637F1E63F18200AEA376 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		233863851E63F1D400AEA376 /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 233863831E63F1D400AEA376 /* FirstVC.m */; };
+		233863861E63F1D400AEA376 /* FirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 233863841E63F1D400AEA376 /* FirstVC.xib */; };
+		2338638A1E63F1F000AEA376 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 233863881E63F1F000AEA376 /* SecondVC.m */; };
+		2338638B1E63F1F000AEA376 /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 233863891E63F1F000AEA376 /* SecondVC.xib */; };
+		2338638F1E63F20000AEA376 /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2338638D1E63F20000AEA376 /* ThirdVC.m */; };
+		233863901E63F20000AEA376 /* ThirdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2338638E1E63F20000AEA376 /* ThirdVC.xib */; };
 		2357278B1E5FBCF400529014 /* UIButton+enlargeClickRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2357278A1E5FBCF400529014 /* UIButton+enlargeClickRect.m */; };
 		235727901E5FBDED00529014 /* EnlargeClickRectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2357278E1E5FBDED00529014 /* EnlargeClickRectVC.m */; };
 		235727911E5FBDED00529014 /* EnlargeClickRectVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2357278F1E5FBDED00529014 /* EnlargeClickRectVC.xib */; };
@@ -104,6 +111,17 @@
 		233863781E63C94300AEA376 /* ImageImageEffectsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageImageEffectsVC.h; sourceTree = "<group>"; };
 		233863791E63C94300AEA376 /* ImageImageEffectsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageImageEffectsVC.m; sourceTree = "<group>"; };
 		2338637A1E63C94300AEA376 /* ImageImageEffectsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageImageEffectsVC.xib; sourceTree = "<group>"; };
+		2338637E1E63F18200AEA376 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		2338637F1E63F18200AEA376 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		233863821E63F1D400AEA376 /* FirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
+		233863831E63F1D400AEA376 /* FirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
+		233863841E63F1D400AEA376 /* FirstVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstVC.xib; sourceTree = "<group>"; };
+		233863871E63F1F000AEA376 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		233863881E63F1F000AEA376 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		233863891E63F1F000AEA376 /* SecondVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
+		2338638C1E63F20000AEA376 /* ThirdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdVC.h; sourceTree = "<group>"; };
+		2338638D1E63F20000AEA376 /* ThirdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdVC.m; sourceTree = "<group>"; };
+		2338638E1E63F20000AEA376 /* ThirdVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdVC.xib; sourceTree = "<group>"; };
 		235727891E5FBCF400529014 /* UIButton+enlargeClickRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+enlargeClickRect.h"; sourceTree = "<group>"; };
 		2357278A1E5FBCF400529014 /* UIButton+enlargeClickRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+enlargeClickRect.m"; sourceTree = "<group>"; };
 		2357278D1E5FBDED00529014 /* EnlargeClickRectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargeClickRectVC.h; sourceTree = "<group>"; };
@@ -213,6 +231,7 @@
 		23148EEF1E5EDBE500BF033E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				2338637D1E63F16400AEA376 /* UINavigationController */,
 				233863641E63C41800AEA376 /* UIImage */,
 				2357279B1E5FC9D500529014 /* UIControl */,
 				23148F051E5EE5C300BF033E /* UIView */,
@@ -234,6 +253,7 @@
 		23148EF41E5EDC3200BF033E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				233863811E63F19500AEA376 /* 添加手势返回的导航栏 */,
 				233863681E63C45400AEA376 /* UIImage类别demo */,
 				235727C51E60006500529014 /* DCAnimationKit */,
 				235727BC1E5FE83800529014 /* 抖动效果 */,
@@ -331,6 +351,31 @@
 				2338637A1E63C94300AEA376 /* ImageImageEffectsVC.xib */,
 			);
 			name = "UIImage类别demo";
+			sourceTree = "<group>";
+		};
+		2338637D1E63F16400AEA376 /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				2338637E1E63F18200AEA376 /* UINavigationController+FDFullscreenPopGesture.h */,
+				2338637F1E63F18200AEA376 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			name = UINavigationController;
+			sourceTree = "<group>";
+		};
+		233863811E63F19500AEA376 /* 添加手势返回的导航栏 */ = {
+			isa = PBXGroup;
+			children = (
+				233863821E63F1D400AEA376 /* FirstVC.h */,
+				233863831E63F1D400AEA376 /* FirstVC.m */,
+				233863841E63F1D400AEA376 /* FirstVC.xib */,
+				233863871E63F1F000AEA376 /* SecondVC.h */,
+				233863881E63F1F000AEA376 /* SecondVC.m */,
+				233863891E63F1F000AEA376 /* SecondVC.xib */,
+				2338638C1E63F20000AEA376 /* ThirdVC.h */,
+				2338638D1E63F20000AEA376 /* ThirdVC.m */,
+				2338638E1E63F20000AEA376 /* ThirdVC.xib */,
+			);
+			name = "添加手势返回的导航栏";
 			sourceTree = "<group>";
 		};
 		2357278C1E5FBDB300529014 /* 扩大UIButton的点击范围 */ = {
@@ -467,9 +512,11 @@
 			files = (
 				233863721E63C90600AEA376 /* ImageCategoryVC.xib in Resources */,
 				23148EFF1E5EDE5800BF033E /* AnimationCell.xib in Resources */,
+				233863861E63F1D400AEA376 /* FirstVC.xib in Resources */,
 				235727911E5FBDED00529014 /* EnlargeClickRectVC.xib in Resources */,
 				2338637C1E63C94300AEA376 /* ImageImageEffectsVC.xib in Resources */,
 				23148EE71E5EDB6A00BF033E /* LaunchScreen.storyboard in Resources */,
+				233863901E63F20000AEA376 /* ThirdVC.xib in Resources */,
 				23148EF91E5EDC7A00BF033E /* AnimationCellVC.xib in Resources */,
 				2357279A1E5FC49200529014 /* CategoryOfUIViewVC.xib in Resources */,
 				235727CA1E60009200529014 /* DCAnimationKitVC.xib in Resources */,
@@ -484,6 +531,7 @@
 				23148EE21E5EDB6A00BF033E /* Main.storyboard in Resources */,
 				235727DE1E600A3A00529014 /* AttentionGrabbersVC.xib in Resources */,
 				23148F101E5EE7A200BF033E /* BtnLayoutVC.xib in Resources */,
+				2338638B1E63F1F000AEA376 /* SecondVC.xib in Resources */,
 				235727E31E600B8200529014 /* CoordinateManipulationVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,10 +544,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				235727A11E5FD17600529014 /* UIView+addToWindow.m in Sources */,
+				233863851E63F1D400AEA376 /* FirstVC.m in Sources */,
 				23148EFE1E5EDE5800BF033E /* AnimationCell.m in Sources */,
 				235727D31E60092400529014 /* DCAnimationKitIntoVC.m in Sources */,
 				235727DD1E600A3A00529014 /* AttentionGrabbersVC.m in Sources */,
 				235727E21E600B8200529014 /* CoordinateManipulationVC.m in Sources */,
+				233863801E63F18200AEA376 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				235727901E5FBDED00529014 /* EnlargeClickRectVC.m in Sources */,
 				233863711E63C90600AEA376 /* ImageCategoryVC.m in Sources */,
 				23148EDF1E5EDB6A00BF033E /* ViewController.m in Sources */,
@@ -523,9 +573,11 @@
 				233863761E63C92E00AEA376 /* ImageBlurVC.m in Sources */,
 				235727BB1E5FE72200529014 /* UIView+Shaking.m in Sources */,
 				23148F0F1E5EE7A200BF033E /* BtnLayoutVC.m in Sources */,
+				2338638F1E63F20000AEA376 /* ThirdVC.m in Sources */,
 				235727991E5FC49200529014 /* CategoryOfUIViewVC.m in Sources */,
 				235727B81E5FE09E00529014 /* UIView+superVC.m in Sources */,
 				235727C41E5FFB4800529014 /* UIView+DCAnimationKit.m in Sources */,
+				2338638A1E63F1F000AEA376 /* SecondVC.m in Sources */,
 				2357279E1E5FCA2A00529014 /* UIControl+recurClick.m in Sources */,
 				23148F0B1E5EE71D00BF033E /* UIButton+Layout.m in Sources */,
 				233863671E63C42800AEA376 /* UIImage+Category.m in Sources */,
