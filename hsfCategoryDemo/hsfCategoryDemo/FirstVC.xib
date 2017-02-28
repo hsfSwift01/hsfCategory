@@ -32,19 +32,111 @@
                         <constraint firstAttribute="height" constant="50" id="p5g-nP-Tnz"/>
                     </constraints>
                     <state key="normal" title="Push"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <action selector="pushToSecondVC:" destination="-1" eventType="touchUpInside" id="94T-aH-heM"/>
                     </connections>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXK-84-1wV">
+                    <rect key="frame" x="10" y="541" width="355" height="56"/>
+                    <attributedString key="attributedText">
+                        <fragment content="分手 ">
+                            <attributes>
+                                <color key="NSColor" red="0.87450980392156863" green="0.16168702247329025" blue="0.24259818671345373" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="22" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="就看见">
+                            <attributes>
+                                <color key="NSColor" red="0.0085536858974358809" green="0.0016262480873059093" blue="0.0024290177615934661" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="17" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="阿斯顿">
+                            <attributes>
+                                <color key="NSColor" red="0.0085536858974358809" green="0.0016262480873059093" blue="0.0024290177615934661" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="17" name="STKaiti-SC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="发就哦就">
+                            <attributes>
+                                <color key="NSColor" red="0.0085536858974358809" green="0.0016262480873059093" blue="0.0024290177615934661" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="17" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="撒了">
+                            <attributes>
+                                <color key="NSColor" red="0.12167483210100563" green="0.28681718889997659" blue="0.99963942307692311" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="17" name="DFWaWaSC-W5"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="点附近">
+                            <attributes>
+                                <color key="NSColor" red="0.0085536858974358809" green="0.0016262480873059093" blue="0.0024290177615934661" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="17" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="阿莱克斯">
+                            <attributes>
+                                <color key="NSColor" red="0.97199519230769227" green="0.66165892213488076" blue="0.059199257149785182" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="10" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="来打飞机啦三闾大">
+                            <attributes>
+                                <color key="NSColor" red="0.0085536858974358809" green="0.0016262480873059093" blue="0.0024290177615934661" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="17" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="夫就马上订房">
+                            <attributes>
+                                <color key="NSBackgroundColor" red="0.24045459747340953" green="0.75886726216386335" blue="0.87450980392156863" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="NSColor" red="0.0085536858974358809" green="0.0016262480873059093" blue="0.0024290177615934661" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="17" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="间空间哦尔特人">
+                            <attributes>
+                                <color key="NSColor" red="0.0085536858974358809" green="0.0016262480873059093" blue="0.0024290177615934661" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="17" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="0.57647058819999997" green="0.91764705879999997" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="X9S-Oq-xSQ" secondAttribute="bottom" constant="10" id="175-oR-97y"/>
                 <constraint firstItem="X9S-Oq-xSQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="VP5-VW-azV"/>
+                <constraint firstItem="X9S-Oq-xSQ" firstAttribute="top" secondItem="qXK-84-1wV" secondAttribute="bottom" constant="10" id="Z09-3z-nGt"/>
+                <constraint firstAttribute="trailing" secondItem="qXK-84-1wV" secondAttribute="trailing" constant="10" id="ahn-Tv-c6R"/>
                 <constraint firstItem="dVi-O9-bsO" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="jG2-W7-IQY"/>
+                <constraint firstItem="qXK-84-1wV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="kao-8D-gml"/>
                 <constraint firstAttribute="trailing" secondItem="X9S-Oq-xSQ" secondAttribute="trailing" constant="10" id="rAD-dR-qpI"/>
                 <constraint firstItem="dVi-O9-bsO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="yKm-mQ-kL9"/>
             </constraints>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
         </view>
     </objects>
 </document>
