@@ -75,6 +75,8 @@
 		235727E31E600B8200529014 /* CoordinateManipulationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235727E11E600B8200529014 /* CoordinateManipulationVC.xib */; };
 		23CBA0841E65093000EE6C31 /* UIView+xibProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CBA0831E65093000EE6C31 /* UIView+xibProperty.m */; };
 		23CBA0881E651F4400EE6C31 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CBA0871E651F4400EE6C31 /* UIColor+Hex.m */; };
+		23CBA08B1E65676800EE6C31 /* NSString+dateString.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CBA08A1E65676800EE6C31 /* NSString+dateString.m */; };
+		23CBA08F1E6568D600EE6C31 /* NSDate+dateString.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CBA08E1E6568D600EE6C31 /* NSDate+dateString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -193,6 +195,10 @@
 		23CBA0831E65093000EE6C31 /* UIView+xibProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+xibProperty.m"; sourceTree = "<group>"; };
 		23CBA0861E651F4400EE6C31 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		23CBA0871E651F4400EE6C31 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		23CBA0891E65676800EE6C31 /* NSString+dateString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+dateString.h"; sourceTree = "<group>"; };
+		23CBA08A1E65676800EE6C31 /* NSString+dateString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+dateString.m"; sourceTree = "<group>"; };
+		23CBA08D1E6568D600EE6C31 /* NSDate+dateString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+dateString.h"; sourceTree = "<group>"; };
+		23CBA08E1E6568D600EE6C31 /* NSDate+dateString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+dateString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +258,7 @@
 		23148EEF1E5EDBE500BF033E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				23CBA08C1E6568A400EE6C31 /* NSDate */,
 				23CBA0851E651F2800EE6C31 /* UIColor */,
 				233863981E63FA2B00AEA376 /* UILabel */,
 				233863911E63F5E400AEA376 /* NSString */,
@@ -415,6 +422,8 @@
 				233863A01E640C6D00AEA376 /* NSString+MusicTime.m */,
 				233863A21E640CE200AEA376 /* NSString+Predicate.h */,
 				233863A31E640CE200AEA376 /* NSString+Predicate.m */,
+				23CBA0891E65676800EE6C31 /* NSString+dateString.h */,
+				23CBA08A1E65676800EE6C31 /* NSString+dateString.m */,
 			);
 			name = NSString;
 			sourceTree = "<group>";
@@ -509,6 +518,15 @@
 				23CBA0871E651F4400EE6C31 /* UIColor+Hex.m */,
 			);
 			name = UIColor;
+			sourceTree = "<group>";
+		};
+		23CBA08C1E6568A400EE6C31 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				23CBA08D1E6568D600EE6C31 /* NSDate+dateString.h */,
+				23CBA08E1E6568D600EE6C31 /* NSDate+dateString.m */,
+			);
+			name = NSDate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -608,6 +626,7 @@
 				23148EFE1E5EDE5800BF033E /* AnimationCell.m in Sources */,
 				235727D31E60092400529014 /* DCAnimationKitIntoVC.m in Sources */,
 				235727DD1E600A3A00529014 /* AttentionGrabbersVC.m in Sources */,
+				23CBA08B1E65676800EE6C31 /* NSString+dateString.m in Sources */,
 				235727E21E600B8200529014 /* CoordinateManipulationVC.m in Sources */,
 				233863A11E640C6D00AEA376 /* NSString+MusicTime.m in Sources */,
 				233863801E63F18200AEA376 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
@@ -615,6 +634,7 @@
 				233863711E63C90600AEA376 /* ImageCategoryVC.m in Sources */,
 				23148EDF1E5EDB6A00BF033E /* ViewController.m in Sources */,
 				23148EDC1E5EDB6A00BF033E /* AppDelegate.m in Sources */,
+				23CBA08F1E6568D600EE6C31 /* NSDate+dateString.m in Sources */,
 				23148EF31E5EDC0200BF033E /* UITableViewCell+CellAnimation.m in Sources */,
 				235727CE1E6003D100529014 /* DCAnimationKitShowVC.m in Sources */,
 				2338636C1E63C7A400AEA376 /* ImageDemoVC.m in Sources */,
