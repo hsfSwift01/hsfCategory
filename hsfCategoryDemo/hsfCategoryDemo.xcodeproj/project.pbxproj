@@ -74,6 +74,7 @@
 		235727E21E600B8200529014 /* CoordinateManipulationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 235727E01E600B8200529014 /* CoordinateManipulationVC.m */; };
 		235727E31E600B8200529014 /* CoordinateManipulationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235727E11E600B8200529014 /* CoordinateManipulationVC.xib */; };
 		23CBA0841E65093000EE6C31 /* UIView+xibProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CBA0831E65093000EE6C31 /* UIView+xibProperty.m */; };
+		23CBA0881E651F4400EE6C31 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CBA0871E651F4400EE6C31 /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -190,6 +191,8 @@
 		235727E11E600B8200529014 /* CoordinateManipulationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoordinateManipulationVC.xib; sourceTree = "<group>"; };
 		23CBA0821E65093000EE6C31 /* UIView+xibProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+xibProperty.h"; sourceTree = "<group>"; };
 		23CBA0831E65093000EE6C31 /* UIView+xibProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+xibProperty.m"; sourceTree = "<group>"; };
+		23CBA0861E651F4400EE6C31 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		23CBA0871E651F4400EE6C31 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +252,7 @@
 		23148EEF1E5EDBE500BF033E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				23CBA0851E651F2800EE6C31 /* UIColor */,
 				233863981E63FA2B00AEA376 /* UILabel */,
 				233863911E63F5E400AEA376 /* NSString */,
 				2338637D1E63F16400AEA376 /* UINavigationController */,
@@ -498,6 +502,15 @@
 			name = DCAnimationKit;
 			sourceTree = "<group>";
 		};
+		23CBA0851E651F2800EE6C31 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				23CBA0861E651F4400EE6C31 /* UIColor+Hex.h */,
+				23CBA0871E651F4400EE6C31 /* UIColor+Hex.m */,
+			);
+			name = UIColor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -620,6 +633,7 @@
 				23148ED91E5EDB6A00BF033E /* main.m in Sources */,
 				233863761E63C92E00AEA376 /* ImageBlurVC.m in Sources */,
 				235727BB1E5FE72200529014 /* UIView+Shaking.m in Sources */,
+				23CBA0881E651F4400EE6C31 /* UIColor+Hex.m in Sources */,
 				23148F0F1E5EE7A200BF033E /* BtnLayoutVC.m in Sources */,
 				2338638F1E63F20000AEA376 /* ThirdVC.m in Sources */,
 				235727991E5FC49200529014 /* CategoryOfUIViewVC.m in Sources */,
