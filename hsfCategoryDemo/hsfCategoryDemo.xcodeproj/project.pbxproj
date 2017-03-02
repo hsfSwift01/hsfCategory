@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230EC30D1E6696ED008D0ABA /* UIView+YGPulseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 230EC30C1E6696ED008D0ABA /* UIView+YGPulseView.m */; };
 		23148ED91E5EDB6A00BF033E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23148ED81E5EDB6A00BF033E /* main.m */; };
 		23148EDC1E5EDB6A00BF033E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23148EDB1E5EDB6A00BF033E /* AppDelegate.m */; };
 		23148EDF1E5EDB6A00BF033E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23148EDE1E5EDB6A00BF033E /* ViewController.m */; };
@@ -80,6 +81,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		230EC30B1E6696ED008D0ABA /* UIView+YGPulseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YGPulseView.h"; sourceTree = "<group>"; };
+		230EC30C1E6696ED008D0ABA /* UIView+YGPulseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YGPulseView.m"; sourceTree = "<group>"; };
 		23148ED41E5EDB6A00BF033E /* hsfCategoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hsfCategoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23148ED81E5EDB6A00BF033E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23148EDA1E5EDB6A00BF033E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -354,6 +357,8 @@
 				235727C31E5FFB4800529014 /* UIView+DCAnimationKit.m */,
 				23CBA0821E65093000EE6C31 /* UIView+xibProperty.h */,
 				23CBA0831E65093000EE6C31 /* UIView+xibProperty.m */,
+				230EC30B1E6696ED008D0ABA /* UIView+YGPulseView.h */,
+				230EC30C1E6696ED008D0ABA /* UIView+YGPulseView.m */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -643,6 +648,7 @@
 				23148F081E5EE5E000BF033E /* UIView+border.m in Sources */,
 				235727A71E5FD55900529014 /* UIView+screenshot.m in Sources */,
 				235727AB1E5FD61F00529014 /* ScreenShotVC.m in Sources */,
+				230EC30D1E6696ED008D0ABA /* UIView+YGPulseView.m in Sources */,
 				235727B51E5FE03D00529014 /* UIView+Extension.m in Sources */,
 				235727C01E5FE86300529014 /* ShakeVC.m in Sources */,
 				235727A41E5FD21800529014 /* UIView+motionEffect.m in Sources */,
